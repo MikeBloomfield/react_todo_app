@@ -16,3 +16,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.todo-enter {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+.todo-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.todo-exit {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.todo-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
